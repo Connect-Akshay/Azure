@@ -14,7 +14,19 @@
 		"OfficeDirectory_password": {
 			"value": ""
 		},
+		"SqlServer1_connectionString": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"AzureBlobStorageOnPremData_connectionString": {
+			"value": ""
+		},
 		"OfficeDirectory_properties_typeProperties_userId": {
+			"value": "akshay.thanai@soprasteria.com"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
 			"value": "akshay.thanai@soprasteria.com"
 		},
 		"containerUri": {

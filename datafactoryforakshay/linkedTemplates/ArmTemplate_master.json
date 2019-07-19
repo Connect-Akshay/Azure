@@ -19,7 +19,23 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'OfficeDirectory'"
 		},
+		"SqlServer1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'SqlServer1'"
+		},
+		"SqlServer1_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'SqlServer1'"
+		},
+		"AzureBlobStorageOnPremData_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorageOnPremData'"
+		},
 		"OfficeDirectory_properties_typeProperties_userId": {
+			"type": "string",
+			"defaultValue": "akshay.thanai@soprasteria.com"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "akshay.thanai@soprasteria.com"
 		},
@@ -56,11 +72,23 @@
 					"AzureSqlDatabase1_connectionString": {
 						"value": "[parameters('AzureSqlDatabase1_connectionString')]"
 					},
+					"AzureBlobStorageOnPremData_connectionString": {
+						"value": "[parameters('AzureBlobStorageOnPremData_connectionString')]"
+					},
 					"OfficeDirectory_password": {
 						"value": "[parameters('OfficeDirectory_password')]"
 					},
+					"SqlServer1_connectionString": {
+						"value": "[parameters('SqlServer1_connectionString')]"
+					},
+					"SqlServer1_password": {
+						"value": "[parameters('SqlServer1_password')]"
+					},
 					"OfficeDirectory_properties_typeProperties_userId": {
 						"value": "[parameters('OfficeDirectory_properties_typeProperties_userId')]"
+					},
+					"SqlServer1_properties_typeProperties_userName": {
+						"value": "[parameters('SqlServer1_properties_typeProperties_userName')]"
 					}
 				}
 			},
