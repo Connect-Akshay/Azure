@@ -5,10 +5,13 @@
 		"factoryName": {
 			"value": "datafactoryforakshay"
 		},
-		"OfficeDirectory_password": {
+		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
-		"AzureBlobStorage1_connectionString": {
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"OfficeDirectory_password": {
 			"value": ""
 		},
 		"OfficeDirectory_properties_typeProperties_userId": {

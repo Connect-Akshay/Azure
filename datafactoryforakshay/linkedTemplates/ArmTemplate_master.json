@@ -7,13 +7,17 @@
 			"metadata": "Data Factory Name",
 			"defaultValue": "datafactoryforakshay"
 		},
-		"OfficeDirectory_password": {
-			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'OfficeDirectory'"
-		},
 		"AzureBlobStorage1_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase1'"
+		},
+		"OfficeDirectory_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'OfficeDirectory'"
 		},
 		"OfficeDirectory_properties_typeProperties_userId": {
 			"type": "string",
@@ -48,6 +52,9 @@
 					},
 					"AzureBlobStorage1_connectionString": {
 						"value": "[parameters('AzureBlobStorage1_connectionString')]"
+					},
+					"AzureSqlDatabase1_connectionString": {
+						"value": "[parameters('AzureSqlDatabase1_connectionString')]"
 					},
 					"OfficeDirectory_password": {
 						"value": "[parameters('OfficeDirectory_password')]"
