@@ -1,0 +1,7 @@
+{
+	"name": "BulkCopyTablesSQLtoWarehouse",
+	"properties": {
+		"description": "Copy all tables from Azure SQl database to Azure Warehouse",
+		"annotations": []
+	}
+}
